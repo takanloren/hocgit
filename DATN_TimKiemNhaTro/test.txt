@@ -47,3 +47,12 @@ public class Zoo{
 		}
 	}
 }
+public class Demo{
+	Cat cat = new Cat("MeoMeo");
+	Dog dog = new Dog("LuLu");
+
+	Zoo zoo = new Zoo();
+	zoo.add(cat);
+	zoo.add(dog);
+	zoo.show();
+}
