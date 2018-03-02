@@ -20,3 +20,12 @@ public class Cat extends Animal {
 	System.in.println("Hi ! I'm "+super.getName());
 	}
 }
+public class Dog extends Animal {
+	public Dob(String name){
+		super(name);
+	}
+	@override
+	public void SayHello(){
+		System.in.println("Hi ! I'm "+super.getName());
+	}
+}
