@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-﻿Thay đổi fix date lần 2
-=======
-Last fix : 4/1/2018 - 23h35
->>>>>>> parent of 06a6805... Sua file version
+﻿I'm Ha Minh Tung
