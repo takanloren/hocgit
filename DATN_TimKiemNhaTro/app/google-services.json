@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "463315513026",
+    "firebase_url": "https://timkiemnhatro-d501f.firebaseio.com",
+    "project_id": "timkiemnhatro-d501f",
+    "storage_bucket": "timkiemnhatro-d501f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463315513026:android:28f9cc609245b0b3",
+        "android_client_info": {
+          "package_name": "com.tungha.datn_timkiemnhatro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463315513026-sf3vnn6onghcvddoq6np5viclnltcq9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tungha.datn_timkiemnhatro",
+            "certificate_hash": "86acb1845faae41f530503d1fae2905fa51beacc"
+          }
+        },
+        {
+          "client_id": "463315513026-q7m81nfa13qeg3kvvl7kilo80h3sg3um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvxRN5ly155ZOBqlNHEkU0TzG8Z7WBHIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463315513026-q7m81nfa13qeg3kvvl7kilo80h3sg3um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

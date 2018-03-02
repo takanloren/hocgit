@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="57dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tblayout_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/AvatarChange_Profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:gravity="center_vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/imgAvaUser_Profile"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/user"
+                    app:civ_border_color="#fafafa"
+                    app:civ_border_width="0dp" />
+
+                <TextView
+                    android:id="@+id/txtTenUser_Profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="TextView"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/common_google_signin_btn_icon_light_normal_background">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.19"
+                    android:gravity="center_vertical"
+                    android:text="Họ tên :"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+                <TextView
+                    android:id="@+id/txtHoTen_Profile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.78"
+                    android:gravity="center_vertical"
+                    android:text="TextView"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.19"
+                    android:gravity="center_vertical"
+                    android:text="Email :"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+                <TextView
+                    android:id="@+id/txtEmail_Profile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.78"
+                    android:gravity="center_vertical"
+                    android:text="TextView"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center_vertical"
+                    android:text="Giới tính :"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+                <TextView
+                    android:id="@+id/txtGioiTinh_Profile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.78"
+                    android:gravity="center_vertical"
+                    android:text="TextView"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+                <ImageView
+                    android:id="@+id/imgSuaGioiTinh_Profile"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33"
+                    android:gravity="center_vertical"
+                    android:text="Số điện thoại :"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+                <TextView
+                    android:id="@+id/txtSDT_Profile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.65"
+                    android:gravity="center_vertical"
+                    android:text="TextView"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+                <ImageView
+                    android:id="@+id/imgSuaSDT_Profile"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TableRow
+                android:id="@+id/tbrow_DoiMK_Profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    app:srcCompat="@android:drawable/ic_menu_manage" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.9"
+                    android:gravity="center_vertical"
+                    android:text="Đổi mật khẩu"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:id="@+id/tbrow_GioiThieu_Profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center_vertical"
+                            android:text="Giới thiệu"
+                            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tbrow_GuiPhanHoi_Profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center_vertical"
+                            android:text="Gửi phản hồi "
+                            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tbrow_DangXuat_Profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            app:srcCompat="@android:drawable/ic_menu_revert" />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="0.9"
+                            android:gravity="center_vertical"
+                            android:text="Đăng xuất"
+                            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgProfile_USERNULL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/user" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnDangNhapFromProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:background="@drawable/com_facebook_tooltip_blue_background"
+            android:text="Đăng nhập"
+            android:visibility="gone" />
+    </TableRow>
+
+</LinearLayout>

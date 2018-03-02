@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Tìm kiếm nhà trọ</string>
+    <string name="facebook_app_id">921483861334167</string>
+    <string name="fb_login_protocol_scheme">fb921483861334167</string>
+    <string name="feedback">Hiện tại ứng dụng Bluehouse đang trong giai đoạn thử nghiệm, nếu bạn có ý kiến đóng góp, hoặc nhận thấy hệ thống hoạt động lỗi, vui lòng gửi phản hồi ở phía dưới hoặc liên lạc qua hotline : 028 777 7777, mọi ý kiến phản hồi đều được chào đón!</string>
+</resources>

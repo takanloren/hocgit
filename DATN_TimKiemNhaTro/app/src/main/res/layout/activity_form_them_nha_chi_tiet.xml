@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tungha.datn_timkiemnhatro.FormThemNhaChiTiet">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/edtDienTich_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                        android:ems="10"
+                        android:maxLength="9"
+                        android:hint="Diện tích"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="m2"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/edtTienThue_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                        android:ems="10"
+                        android:maxLength="9"
+                        android:hint="Tiền thuê"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:text="/tháng"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/edtTienCoc_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                        android:ems="10"
+                        android:maxLength="9"
+                        android:hint="Tiền cần cọc"
+                        android:inputType="number" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/edtSoLuong_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                        android:ems="10"
+                        android:maxLength="9"
+                        android:hint="Số lượng"
+                        android:inputType="number" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/imgPickNgay_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_weight="0.2"
+                        android:background="@android:drawable/dialog_holo_light_frame"
+                        app:srcCompat="@drawable/lich" />
+
+                    <TextView
+                        android:id="@+id/txtHienThiNgay_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="0.52"
+                        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                        android:gravity="center"
+                        android:hint="Ngày bắt đầu có thể thuê"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/imgGiaiDapPickNgay_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15"
+                        android:background="@android:drawable/editbox_background_normal"
+                        app:srcCompat="@android:drawable/ic_menu_help" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/btnYeuCau_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:background="@drawable/com_facebook_tooltip_blue_background"
+                        android:text="Thiết lập yêu cầu" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/btnTienIch_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:background="@drawable/com_facebook_tooltip_blue_background"
+                        android:text="Thiết lập tiện ích" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:id="@+id/btnPickAnh_FormNCT"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.2"
+                                app:srcCompat="@drawable/imageaddicon" />
+                        </TableRow>
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/reView_DSAnh_FormNCT"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/btnHuy_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/com_facebook_tooltip_blue_background"
+                        android:text=" Hủy" />
+
+                    <Button
+                        android:id="@+id/btnXacNhan_FormNCT"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/com_facebook_tooltip_blue_background"
+                        android:text="Xác nhận" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

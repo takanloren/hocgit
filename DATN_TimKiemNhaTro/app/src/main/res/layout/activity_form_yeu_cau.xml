@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tungha.datn_timkiemnhatro.FormYeuCau">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.35"
+                android:gravity="right|center"
+                android:text="Số người tối đa :" />
+
+            <EditText
+                android:id="@+id/edtSLNguoi_FormYC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.43"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:maxLength="9"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.35"
+                android:gravity="right|center"
+                android:text="Số xe tối đa :" />
+
+            <EditText
+                android:id="@+id/edtSLXe_FormYC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.43"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:maxLength="9"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.35"
+                android:gravity="right|center"
+                android:text="Quy định giờ giấc :" />
+
+            <EditText
+                android:id="@+id/edtGioGiac_FormYC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.43"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0.25"
+                android:gravity="right|center"
+                android:text="Hợp đồng :" />
+
+            <EditText
+                android:id="@+id/edtHopDong_FormYC"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:maxLength="9"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.13"
+                android:gravity="center"
+                android:text="tháng" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <RadioGroup
+                android:id="@+id/rdoG_ChoNauAn_FormYC"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:background="@android:drawable/editbox_background"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdoDuocNA_FormYC"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="Được nấu ăn" />
+
+                <RadioButton
+                    android:id="@+id/rdoKONA_FormYC"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="Không nấu ăn" />
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnLuu_FormYC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/com_facebook_tooltip_blue_background"
+                android:text="Lưu" />
+
+            <Button
+                android:id="@+id/btnHuy_FormYC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/com_facebook_tooltip_blue_background"
+                android:text="Đóng" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

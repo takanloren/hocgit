@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reView_DanhGia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="52dp"
+        android:layout_marginTop="50dp" />
+
+    <TableRow
+        android:id="@+id/tbr_DanhGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center">
+
+        <RatingBar
+            android:id="@+id/ratingBar_DanhGia"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:numStars="5"
+            android:progressTint="@color/colorYellow"
+            android:rating="0"
+            android:stepSize="0.5" />
+
+        <Button
+            android:id="@+id/btnGui_DanhGia"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:background="@android:drawable/ic_menu_send" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tbr_NoUser_DanhGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Vui lòng đăng nhập để có thể đánh giá"
+            android:textSize="18sp" />
+    </TableRow>
+</RelativeLayout>

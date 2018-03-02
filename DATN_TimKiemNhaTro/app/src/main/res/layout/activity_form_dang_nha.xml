@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tungha.datn_timkiemnhatro.FormDangNha">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:weightSum="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.75"
+                        android:background="@android:drawable/editbox_background"
+                        android:orientation="vertical">
+
+                        <Spinner
+                            android:id="@+id/spinLoaiPhong_DangNha"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <Switch
+                        android:id="@+id/switchChungChu_DangBai"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.75"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="Không chung chủ "
+                        android:textSize="17sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/edtSDT_DangBai"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.75"
+                        android:maxLength="11"
+                        android:background="@android:drawable/editbox_background"
+                        android:ems="10"
+                        android:hint="SDT liên lạc"
+                        android:inputType="number" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                    android:gravity="center">
+
+                    <TableLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.75">
+
+                        <TableRow
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.75">
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.75"
+                                android:text="Địa chỉ" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@android:drawable/editbox_background"
+                            android:gravity="center">
+
+                            <Spinner
+                                android:id="@+id/spinTP_DangNha"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="0.5" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5"
+                            android:background="@android:drawable/editbox_background"
+                            android:gravity="center">
+
+                            <Spinner
+                                android:id="@+id/spinQuan_DangNha"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_weight="0.75" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:weightSum="1">
+
+                            <EditText
+                                android:id="@+id/edtSo_DangBai"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.15"
+                                android:background="@android:drawable/editbox_background"
+                                android:ems="10"
+                                android:gravity="center"
+                                android:hint="Số"
+                                android:inputType="textMultiLine"/>
+
+                            <EditText
+                                android:id="@+id/edtDuong_DangBai"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.6"
+                                android:background="@android:drawable/editbox_background"
+                                android:ems="10"
+                                android:gravity="center"
+                                android:hint="Đường"
+                                android:inputType="textMultiLine" />
+
+                            <EditText
+                                android:id="@+id/edtPhuong_DangBai"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.25"
+                                android:background="@android:drawable/editbox_background"
+                                android:ems="10"
+                                android:gravity="center"
+                                android:hint="Phường"
+                                android:inputType="textMultiLine"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </TableLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/btnGiaSH_DangNha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/com_facebook_tooltip_blue_background"
+                        android:text="Mức giá sinh hoạt"
+                        android:textSize="14sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hình ảnh" />
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/com_facebook_tooltip_blue_background">
+
+                            <Button
+                                android:id="@+id/btnChonAnh_DangNha"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:background="@android:drawable/ic_menu_camera"
+                                android:elevation="0dp" />
+                        </TableRow>
+
+                        <ImageView
+                            android:id="@+id/imgNha_DangNha"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginTop="4dp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/hinhdefaultnha" />
+                    </LinearLayout>
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/edtMoTa_DangNha"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:background="@android:drawable/editbox_background"
+                        android:ems="10"
+                        android:hint="Mô tả"
+                        android:inputType="textMultiLine" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/btnThoat_DangBai"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/com_facebook_tooltip_blue_background"
+                        android:text="Trở về" />
+
+                    <Button
+                        android:id="@+id/btnTiepTuc_DangBai"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/com_facebook_tooltip_blue_background"
+                        android:text="OK" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
