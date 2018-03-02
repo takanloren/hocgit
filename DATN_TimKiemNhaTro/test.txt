@@ -29,3 +29,21 @@ public class Dog extends Animal {
 		System.in.println("Hi ! I'm "+super.getName());
 	}
 }
+public class Zoo{
+
+	privated List<Animal> list = new ArrayList<Animal>;
+
+	public void add(Animal a){
+		list.add(a);
+	}
+
+	public void remove(Animal a){
+		list.remove(a);
+	}
+
+	public void show(){
+		for(Animal a : list){
+			a.SayHello();	
+		}
+	}
+}
