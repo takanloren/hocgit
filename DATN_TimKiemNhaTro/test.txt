@@ -1,0 +1,22 @@
+public abstract class Animal {
+
+	privated String name;
+
+	public Animal(String name){
+	this.name = name;
+	}
+	public String getName(){
+		return name;
+	}
+	public abstract void SayHello();
+}
+public class Cat extends Animal {
+	public Cat(String name){
+		super(name);
+	}
+	
+	@override
+	public void SayHello(){
+	System.in.println("Hi ! I'm "+super.getName());
+	}
+}
